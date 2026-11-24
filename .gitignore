@@ -34,4 +34,5 @@ JuliaLocalPreferences.toml
 
 # General stuff and OS-specific temporary files
 .DS_Store
-
+.vscode
+JuliaFormat.toml

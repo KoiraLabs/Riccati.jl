@@ -63,3 +63,21 @@ jobs:
           using Riccati
           DocMeta.setdocmeta!(Riccati, :DocTestSetup, :(using Riccati); recursive=true)
           doctest(Riccati)
+  format:
+    name: Formatting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: julia-actions/setup-julia@v3
+        with:
+          version: '1'
+      - name: Install JuliaFormatter
+        run: julia -e 'using Pkg; Pkg.add(name="JuliaFormatter")'
+      - name: Run JuliaFormatter
+        run: julia -e 'using JuliaFormatter; format(".")'
+      - name: Check code style and formatting
+        run: |
+          if ! git diff --exit-code; then
+            echo "Code is not formatted. Run format(\".\") locally and commit the changes."
+            exit 1
+          fi

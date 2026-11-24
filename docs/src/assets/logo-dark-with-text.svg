@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45.492828mm"
+   height="49.943741mm"
+   viewBox="0 0 45.492828 49.943741"
+   version="1.1"
+   id="svg8"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-318.86136,-3.4048863)">
+    <g
+       id="g89"
+       transform="translate(9.9095936)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Ultra-Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="311.94757"
+         y="51.323666"
+         id="text82"><tspan
+           id="tspan81"
+           x="311.94757"
+           y="51.323666"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:LMSans10;-inkscape-font-specification:'LMSans10 Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583">Riccati.jl</tspan><tspan
+           x="311.94757"
+           y="63.670891"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:LMSans10;-inkscape-font-specification:'LMSans10 Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           id="tspan82" /></text>
+      <circle
+         style="fill:#cb3c33;fill-opacity:1;stroke:#cb3c33;stroke-width:0.516693;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle82"
+         cx="315.71964"
+         cy="10.172753"
+         r="6.5095205" />
+      <circle
+         style="fill:#9558b2;fill-opacity:1;stroke:#9558b2;stroke-width:0.516693;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle83"
+         cx="331.69818"
+         cy="22.233315"
+         r="6.5095205" />
+      <circle
+         style="fill:#389826;fill-opacity:1;stroke:#389826;stroke-width:0.516693;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle84"
+         cx="347.67673"
+         cy="34.293877"
+         r="6.5095205" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.32292;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#Triangle)"
+         d="m 315.71978,18.156082 v 4.077233 h 6.33262"
+         id="path84" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.32292;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#Triangle)"
+         d="m 331.69833,30.257778 v 4.036099 h 6.33261"
+         id="path85" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.32292;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#Triangle)"
+         d="M 331.69833,14.247168 V 10.172753 H 325.3447"
+         id="path86" />
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:1.32292;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;marker-end:url(#Triangle)"
+         d="m 347.67688,26.294597 v -4.061282 h -6.33375"
+         id="path87" />
+    </g>
+  </g>
+</svg>

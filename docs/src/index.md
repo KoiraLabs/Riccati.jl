@@ -2,9 +2,11 @@
 CurrentModule = Riccati
 ```
 
-# Riccati
+```@raw html
+<p align="center"><img alt="Logo" src="assets/logo-with-text-background.svg"></p>
+<h4 align="center">Welcome to the documentation for Riccati.jl!</h4>
+```
 
-Documentation for [Riccati](https://github.com/tiominho/Riccati.jl).
 
 ```@index
 ```

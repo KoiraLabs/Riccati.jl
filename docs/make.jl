@@ -10,7 +10,6 @@ makedocs(;
     format=Documenter.HTML(;
         canonical="https://koiralabs.github.io/Riccati.jl",
         edit_link="main",
-        assets=String[],
     ),
     pages=[
         "Home" => "index.md",
