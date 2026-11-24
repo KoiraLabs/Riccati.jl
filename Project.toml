@@ -1,0 +1,13 @@
+name = "Riccati"
+uuid = "8d7789ed-d37a-41ce-a5cd-d5a969a03639"
+authors = ["Otacilio 'Minho' Neto <otacilio.bneto@pm.me>"]
+version = "0.0.0-DEV"
+
+[compat]
+julia = "1.13"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
