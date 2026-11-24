@@ -8,7 +8,7 @@ makedocs(;
     authors="Otacilio 'Minho' Neto <otacilio.bneto@pm.me>",
     sitename="Riccati.jl",
     format=Documenter.HTML(;
-        canonical="https://tiominho.github.io/Riccati.jl",
+        canonical="https://koiralabs.github.io/Riccati.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/tiominho/Riccati.jl",
+    repo="github.com/KoiraLabs/Riccati.jl",
     devbranch="main",
 )

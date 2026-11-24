@@ -1,6 +1,5 @@
 name = "Riccati"
 uuid = "8d7789ed-d37a-41ce-a5cd-d5a969a03639"
-authors = ["Otacilio 'Minho' Neto <otacilio.bneto@pm.me>"]
 version = "0.0.0-DEV"
 
 [compat]
