@@ -1,0 +1,62 @@
+name: Feature request
+description: Propose a new function, type, or capability
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests are reviewed against the package scope. Please explain the problem before proposing a solution.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to do, and why is the current API insufficient? Describe the control-theory or research context if relevant.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API
+      description: Sketch the function signature, type, or example usage you have in mind.
+      render: julia
+    validations:
+      required: false
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: References
+      description: Papers, textbook sections, or equations that define the method. Include the formulation you want implemented.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches, workarounds, or existing packages that partially solve this.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Where does this fit in the roadmap?
+      options:
+        - Within the current milestone
+        - Planned for a later milestone
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions for this request.
+          required: true
